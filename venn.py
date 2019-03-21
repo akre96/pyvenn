@@ -238,7 +238,7 @@ def venn4(labels, names=['A', 'B', 'C', 'D'], **options):
     dpi = options.get('dpi', 96)
     fontsize = options.get('fontsize', 14)
     
-    fig = plt.figure(0, figsize=figsize, dpi=dpi)
+    fig = plt.figure(figsize=figsize, dpi=dpi)
     ax = fig.add_subplot(111, aspect='equal')
     ax.set_axis_off()
     ax.set_ylim(bottom=0.0, top=1.0)
